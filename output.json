@@ -1,0 +1,118 @@
+[
+  {
+    "description": "  As a developer\n  I want to have webdriver available to me in my steps\n  So that I don't have to configure my world object and I focus on testing",
+    "elements": [
+      {
+        "id": "use-browser-inside-steps;log-in",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Log in",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I open the url \"http://www.prodigygame.org\"",
+            "result": {
+              "status": "passed",
+              "duration": 1668989452
+            },
+            "line": 22,
+            "match": {
+              "location": "/Users/patrickpriestley/Code/chimp/cucumberExample/step_definitions/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the button \"#login-link\"",
+            "result": {
+              "status": "passed",
+              "duration": 61661741
+            },
+            "line": 23,
+            "match": {
+              "location": "/Users/patrickpriestley/Code/chimp/cucumberExample/step_definitions/steps/when.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I add \"patrick.priestley+parent3@prodigygame.com\" to the inputfield \"#login-username\"",
+            "result": {
+              "status": "passed",
+              "duration": 179314575
+            },
+            "line": 24,
+            "match": {
+              "location": "/Users/patrickpriestley/Code/chimp/cucumberExample/step_definitions/steps/when.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I add \"prodigy1\" to the inputfield \"#login-password\"",
+            "result": {
+              "status": "passed",
+              "duration": 70209913
+            },
+            "line": 25,
+            "match": {
+              "location": "/Users/patrickpriestley/Code/chimp/cucumberExample/step_definitions/steps/when.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the button \"#login-form > div:nth-child(2) > button\"",
+            "result": {
+              "status": "passed",
+              "duration": 68145064
+            },
+            "line": 26,
+            "match": {
+              "location": "/Users/patrickpriestley/Code/chimp/cucumberExample/step_definitions/steps/when.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I wait on element \"#root > div > div.sc-kfGgVZ.VnQBK > div.sc-eTuwsz.gEYwkP > div.sc-CtfFt.dJlRQn > a > span\" for 10000ms to exist",
+            "result": {
+              "status": "passed",
+              "duration": 2017591948
+            },
+            "line": 27,
+            "match": {
+              "location": "/Users/patrickpriestley/Code/chimp/cucumberExample/step_definitions/steps/then.js:162"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 134136
+            },
+            "hidden": true,
+            "match": {
+              "location": "/usr/local/lib/node_modules/chimp/dist/lib/cucumberjs/hooks.js:68"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@watch",
+            "line": 20
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "use-browser-inside-steps",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Use browser inside steps",
+    "tags": [],
+    "uri": "/Users/patrickpriestley/Code/chimp/cucumberExample/step_definitions/features/webdriver.feature"
+  }
+]
