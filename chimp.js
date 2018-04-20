@@ -7,9 +7,9 @@ module.exports = {
   // - - - - CUCUMBER - - - -
   path: './cucumberExample/',
   require: [
-            './cucumberExample/step_definitions/steps/given.js',
-            './cucumberExample/step_definitions/steps/then.js',
-            './cucumberExample/step_definitions/steps/when.js',
+            './cucumberExample/src/steps/given.js',
+            './cucumberExample/src/steps/then.js',
+            './cucumberExample/src/steps/when.js',
         ],
   jsonOutput: 'output.json',
 
